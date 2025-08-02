@@ -429,7 +429,7 @@ class FlashLoanArbitrageBot {
                 console.log(`✅ Success! Profit: ${opp.profitFormatted}. GasUsed: ${receipt.gasUsed.toString()}. TX: ${receipt.hash}`);
                 // Potentially query contract events here for actual profit if logged
             } else {
-                console.log(`❌ Tx FAILED or Reverted. Status: ${receipt ? receipt.status : 'unknown'}. TX: ${receipt ? receipt.hash : tx.hash}`);
+                tedstatus : 'unknown'}. TX: ${receipt ? receipt.hash : tx.hash}`);
             }
         } catch (err) {
             console.error(`❌ Arbitrage execution FAILED for ${pair.symbol}:`, err.reason || err.message);
