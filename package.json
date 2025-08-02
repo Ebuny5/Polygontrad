@@ -1,0 +1,17 @@
+{
+  "name": "flash-loan-arbitrage-bot",
+  "version": "1.0.0",
+  "description": "Flash loan arbitrage bot for Polygon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
